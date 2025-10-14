@@ -1,0 +1,48 @@
+
+:root {
+    /* colors and bg colors */
+    --color-background-primary: rgb(37, 162, 219);
+    --color-background-secondary: rgb(255, 255, 255);
+    --color-background-tertiory: rgba(233, 246, 251, 1);
+
+    --color-text-primary: rgba(0, 3, 9, 1);
+    --color-text-secondary: rgb(255, 255, 255);
+    --color-text-tertiory: rgba(138, 144, 153, 1);
+
+    /* fonts*/
+    --font-size-normal: 14px;
+    --font-weight-normal: 400;
+    --font-size-heading: 36px;
+    --font-weight-heading: 500;
+    --font-size-median-heading: 18px;
+    --font-family-heading: americanaFont;
+    --font-family-normal: nunitoFont;
+
+    /* width and height */
+    --width-normal: 100%;
+    --height-normal: 100%;
+
+    /* normal padding */
+    --padding: 0 50px;
+
+    /* border radius */
+    --border-radius-normal: 5px;
+    --border-radius-mediun: 10px;
+    --border-radius-full: 100%;
+
+}
+@media (max-width:750px) {
+    .banner-content{
+        position: unset;
+        color:var(--color-text-primary);
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .grid-col-2-tablet .grid-item{
+        width: calc(50% - 0px);
+        max-width: calc(50% - 0px);
+    }
+    .grid-col-2-tablet{
+        row-gap: 20px;
+    }
+}
