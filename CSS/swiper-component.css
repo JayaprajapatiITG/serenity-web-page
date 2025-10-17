@@ -787,3 +787,6 @@ button.swiper-pagination-bullet {
     backface-visibility: hidden;
     overflow: hidden
 }
+.swiper-pagination-bullet-active {
+     background-color: white !important;
+}

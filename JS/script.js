@@ -18,15 +18,15 @@ var swiper = new Swiper(".Swiper-com", {
     breakpoints: {
         640: {
             slidesPerView: 2,
-            spaceBetween: 20,
+            spaceBetween: 0,
         },
         768: {
             slidesPerView: 3,
-            spaceBetween: 40,
+            spaceBetween: 0,
         },
         1024: {
             slidesPerView: 4,
-            spaceBetween: 30,
+            spaceBetween: 0,
         },
     },
     navigation: {
@@ -35,24 +35,24 @@ var swiper = new Swiper(".Swiper-com", {
     },
 });
 var swiper = new Swiper(".Swiper-featured", {
-    slidesPerView: 4,
-    spaceBetween: 30,
+    slidesPerView: 1,
+    spaceBetween: 10,
     // pagination: {
     //     el: ".swiper-pagination",
     //     clickable: true,
     // }, 
     breakpoints: {
-        640: {
+        615: {
             slidesPerView: 2,
-            spaceBetween: 20,
+            spaceBetween: 0,
         },
         768: {
             slidesPerView: 3,
-            spaceBetween: 40,
+            spaceBetween: 0,
         },
         1024: {
             slidesPerView: 4,
-            spaceBetween: 30,
+            spaceBetween: 0,
         },
     },
     navigation: {
@@ -60,3 +60,9 @@ var swiper = new Swiper(".Swiper-featured", {
         prevEl: ".Swiper-featured-prev",
     },
 });
+  var swiper = new Swiper(".text-swiper", {
+      navigation: {
+        nextEl: ".Swiper-text-next",
+        prevEl: ".Swiper-text-prev",
+      },
+    });
