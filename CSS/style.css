@@ -10,12 +10,12 @@ button {
 
 @font-face {
     font-family: americanaFont;
-    src: url("/font/Americana Font Regular.otf");
+    src: url("../font/Americana Font Regular.otf");
 }
 
 @font-face {
     font-family: nunitoFont;
-    src: url("/font/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf");
+    src: url("../font/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf");
 }
 
 body {
