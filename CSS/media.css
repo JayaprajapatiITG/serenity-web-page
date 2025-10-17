@@ -262,39 +262,39 @@
     }
 }
 
-    @media (max-width:1250px) {
-        .navigation {
-            display: none;
-        }
-
-        .menu-bar {
-            display: block;
-            color: white;
-        }
-
-        .upper-text-banner-image img {
-            aspect-ratio: 16/7.7;
-        }
+@media (max-width:1250px) {
+    .navigation {
+        display: none;
     }
 
-    @media (max-width:400px) {
-        .banner-content {
-            position: unset;
-            color: black;
-            padding-bottom: 50px;
-        }
-
-        .image-with-upper-text-content-wrapper {
-            position: unset;
-        }
-
-        .image-with-upper-text-content {
-            color: black;
-        }
+    .menu-bar {
+        display: block;
+        color: white;
     }
 
-    @media (max-width:1400px) {
-        .page-width {
-            padding: 0px 40px;
-        }
+    .upper-text-banner-image img {
+        aspect-ratio: 16/7.7;
     }
+}
+
+@media (max-width:400px) {
+    .banner-content {
+        position: unset;
+        color: black;
+        padding-bottom: 50px;
+    }
+
+    .image-with-upper-text-content-wrapper {
+        position: unset;
+    }
+
+    .image-with-upper-text-content {
+        color: black;
+    }
+}
+
+@media (max-width:1400px) {
+    .page-width {
+        padding: 0px 40px;
+    }
+}
